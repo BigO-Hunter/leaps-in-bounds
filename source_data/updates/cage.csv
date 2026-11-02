@@ -21,7 +21,7 @@ cage-7-4,14,,,wikipedia-cage
 cage-7-4,,14,,wikipedia-cage
 cage-4-7,67,,,wikipedia-cage
 cage-4-8,80,,,wikipedia-cage
-cage-5-8,170,,,wikipedia-age
+cage-5-8,170,,,wikipedia-cage
 cage-6-8,312,,,wikipedia-cage
 cage-4-12,728,,,wikipedia-cage
 cage-5-12,2730,,,wikipedia-cage
@@ -161,3 +161,6 @@ cage-17-6,546,,,ejc-ds16-cages
 cage-18-6,614,,,ejc-ds16-cages
 cage-19-6,686,,,ejc-ds16-cages
 cage-20-6,762,,,ejc-ds16-cages
+cage-3-16,,936,exoo-et-al-2026,exoo-et-al-2026
+cage-4-9,,270,exoo-et-al-2026,exoo-et-al-2026
+cage-4-10,,320,exoo-et-al-2026,exoo-et-al-2026

@@ -7,6 +7,7 @@
 - msc: "05A"
   name: "Enumerative combinatorics"
   groups:
+    - map-folding
     - minimal-superpermutation
     - stamp-folding
 
@@ -22,6 +23,11 @@
     - ramsey
     - van-der-waerden
 
+- msc: "11M"
+  name: "Zeta and L-functions: analytic theory"
+  groups:
+    - debruijn-newman
+
 - msc: "52C"
   name: "Discrete geometry"
   groups:
@@ -30,10 +36,4 @@
     - circle-in-equilateral
     - disk-covering
     - kissing-number
-    - map-folding
     - square-packing
-
-- msc: "11"
-  name: "Number theory"
-  groups:
-    - debruijn-newman

@@ -41,8 +41,9 @@ class Value:
             return int(latex_str)
         
         # Look for deeply nested exponentials that indicate extremely large numbers
+        # (or Knuth's up-arrow notation)
         nested_power_count = latex_str.count("^")
-        if nested_power_count > 2:
+        if nested_power_count > 2 or r'\uparrow' in latex_str:
             # print(f"Warning: Skipping potentially too large expression: {latex_str}")
             return None
             

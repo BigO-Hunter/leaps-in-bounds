@@ -24,6 +24,7 @@ circle-in-equilateral-11,,4+2\sqrt{3}+\frac{4\sqrt{6}}{3},,friedman-circles-in-t
 circle-in-equilateral-12,4+4\sqrt{3},,melissen-1994b,friedman-circles-in-triangles
 circle-in-equilateral-12,,4+4\sqrt{3},,friedman-circles-in-triangles
 circle-in-equilateral-13,,4+\frac{2\sqrt{6}}{3} + \frac{10\sqrt{3}}{3},melissen-1993,friedman-circles-in-triangles
-circle-in-equilateral-14,,8+2\sqrt{3},erdos-oler-1961,friedman-circles-in-triangles
-circle-in-equilateral-15,8+2\sqrt{3},,erdos-groemer-1961,friedman-circles-in-triangles
+circle-in-equilateral-14,,8+2\sqrt{3},oler-groemer-1961,friedman-circles-in-triangles
+circle-in-equilateral-15,8+2\sqrt{3},,oler-groemer-1961,friedman-circles-in-triangles
 circle-in-equilateral-15,,8+2\sqrt{3},,friedman-circles-in-triangles
+circle-in-equilateral-14,8+2\sqrt{3},,payan-1997,wikipedia-circle-in-equilateral

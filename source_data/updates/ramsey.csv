@@ -142,7 +142,7 @@ ramsey-4-12,,210,angeltveit-mckay-2019-2024,ejc-ds1-small-ramsey-numbers
 ramsey-4-13,,256,angeltveit-mckay-2019-2024,ejc-ds1-small-ramsey-numbers
 ramsey-4-14,,307,angeltveit-mckay-2019-2024,ejc-ds1-small-ramsey-numbers
 ramsey-4-15,,364,angeltveit-mckay-2019-2024,ejc-ds1-small-ramsey-numbers
-ramsey-5-5,,46,angeltveit-mckay-2019-2024,ejc-ds1-small-ramsey-numbers
+ramsey-5-5,,46,angeltveit-mckay-2024,ejc-ds1-small-ramsey-numbers
 ramsey-5-6,,85,angeltveit-mckay-2019-2024,ejc-ds1-small-ramsey-numbers
 ramsey-5-7,,133,angeltveit-mckay-2019-2024,ejc-ds1-small-ramsey-numbers
 ramsey-5-8,,193,angeltveit-mckay-2019-2024,ejc-ds1-small-ramsey-numbers
@@ -181,3 +181,7 @@ ramsey-9-9,,4956,angeltveit-mckay-2019-2024,ejc-ds1-small-ramsey-numbers
 ramsey-9-10,,8675,angeltveit-mckay-2019-2024,ejc-ds1-small-ramsey-numbers
 ramsey-9-11,,14631,angeltveit-mckay-2019-2024,ejc-ds1-small-ramsey-numbers
 ramsey-10-10,,16064,angeltveit-mckay-2019-2024,ejc-ds1-small-ramsey-numbers
+ramsey-3-13,61,,nagda-raghavan-thakurta-2026,ejc-ds1-small-ramsey-numbers
+ramsey-4-13,139,,nagda-raghavan-thakurta-2026,ejc-ds1-small-ramsey-numbers
+ramsey-4-14,148,,nagda-raghavan-thakurta-2026,ejc-ds1-small-ramsey-numbers
+ramsey-4-15,159,,nagda-raghavan-thakurta-2026,ejc-ds1-small-ramsey-numbers
