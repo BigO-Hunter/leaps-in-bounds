@@ -103,6 +103,7 @@ degree-diameter:
   display_type: grid
   display_rows: [3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]
   display_columns: [2, 3, 4, 5, 6, 7, 8, 9, 10]
+  representative_image: degree-diameter-3-2
   id_template: "degree-diameter-{d}-{k}"
   name_template: "Degree-diameter problem $N({d},{k})$"
   description_template: "The largest possible number of vertices in a graph of maximum degree ${d}$ and diameter ${k}$."
@@ -148,6 +149,7 @@ van-der-waerden:
   display_type: grid
   display_rows: [2, 3, 4, 5, 6]
   display_columns: [3, 4, 5, 6, 7, 8, 9, 10, 11]
+  representative_image: van-der-waerden-4-3
   id_template: "van-der-waerden-{r}-{k}"
   name_template: "Van der Waerden number $W({r},{k})$"
   description_template: "The smallest number $n$ such that if the integers $1$ to $n$ are colored with ${r}$ colors, there must be a monochromatic arithmetic progression of length ${k}$."

@@ -125,6 +125,7 @@ h1 {
 
 .constant-image img {
     max-height: 300px;
+    max-width: 100%;
     width: auto;
     object-fit: contain;
 }
@@ -138,6 +139,7 @@ h1 {
 
 .constant-group-image img {
     max-height: 200px;
+    max-width: 100%;
     width: auto;
     object-fit: contain;
 }

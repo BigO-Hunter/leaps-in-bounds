@@ -4,38 +4,28 @@
 
 ramsey-3-3:
   image:
-    source_url: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/Ramsey_theorem_visual_proof.svg/500px-Ramsey_theorem_visual_proof.svg.png"
-    credit: "Cmglee, via Wikimedia Commons"
-    license: "CC BY-SA 4.0"
-    alt_text: "Proof of Ramsey's theorem for R(3,3)"
+    generated: ramsey-3-3.svg
+    alt_text: "Coloring of the edges of the complete graph on 5 vertices with no monochromatic triangle"
 
 square-packing-in-square-5:
   image:
-    source_url: "https://upload.wikimedia.org/wikipedia/commons/6/6b/5_kvadratoj_en_kvadrato.svg"
-    credit: "Amit6, via Wikimedia Commons"
-    license: "Public domain"
+    generated: square-packing-in-square-5.svg
     alt_text: "Optimal packing of 5 unit squares in a square"
 
 busy-beaver-shift-1:
   image:
-    source_url: "https://upload.wikimedia.org/wikipedia/commons/a/a3/Busybeaver1rules.png"
-    credit: "OrdinaryArtery, via Wikimedia Commons"
-    license: "CC BY-SA 4.0"
-    alt_text: "Rule set for 1-state busy beaver"
+    generated: busy-beaver-shift-1.svg
+    alt_text: "Rules and space-time diagram of the 1-state busy beaver that runs longest"
 
 busy-beaver-shift-2:
   image:
-    source_url: "https://upload.wikimedia.org/wikipedia/commons/a/a2/Busybeaver2rules.png"
-    credit: "OrdinaryArtery, via Wikimedia Commons"
-    license: "CC BY-SA 4.0"
-    alt_text: "Rule set for 2-state busy beaver"
+    generated: busy-beaver-shift-2.svg
+    alt_text: "Rules and space-time diagram of the 2-state busy beaver that runs longest"
 
 busy-beaver-shift-4:
   image:
-    source_url: "https://upload.wikimedia.org/wikipedia/commons/7/79/Busybeaver4rules.png"
-    credit: "OrdinaryArtery, via Wikimedia Commons"
-    license: "CC BY-SA 4.0"
-    alt_text: "Rule set for 4-state busy beaver"
+    generated: busy-beaver-shift-4.svg
+    alt_text: "Rules and space-time diagram of the 4-state busy beaver that runs longest"
 
 busy-beaver-shift-5:
   image:
@@ -46,31 +36,23 @@ busy-beaver-shift-5:
 
 busy-beaver-ones-1:
   image:
-    source_url: "https://upload.wikimedia.org/wikipedia/commons/a/a3/Busybeaver1rules.png"
-    credit: "OrdinaryArtery, via Wikimedia Commons"
-    license: "CC BY-SA 4.0"
-    alt_text: "Rule set for 1-state busy beaver"
+    generated: busy-beaver-ones-1.svg
+    alt_text: "Rules and space-time diagram of the 1-state busy beaver that writes the most ones"
 
 busy-beaver-ones-2:
   image:
-    source_url: "https://upload.wikimedia.org/wikipedia/commons/a/a2/Busybeaver2rules.png"
-    credit: "OrdinaryArtery, via Wikimedia Commons"
-    license: "CC BY-SA 4.0"
-    alt_text: "Rule set for 2-state busy beaver"
+    generated: busy-beaver-ones-2.svg
+    alt_text: "Rules and space-time diagram of the 2-state busy beaver that writes the most ones"
 
 busy-beaver-ones-3:
   image:
-    source_url: "https://upload.wikimedia.org/wikipedia/commons/e/e9/Busybeaver3rules.png"
-    credit: "OrdinaryArtery, via Wikimedia Commons"
-    license: "CC BY-SA 4.0"
-    alt_text: "Rule set for 3-state busy beaver"
+    generated: busy-beaver-ones-3.svg
+    alt_text: "Rules and space-time diagram of the 3-state busy beaver that writes the most ones"
 
 busy-beaver-ones-4:
   image:
-    source_url: "https://upload.wikimedia.org/wikipedia/commons/7/79/Busybeaver4rules.png"
-    credit: "OrdinaryArtery, via Wikimedia Commons"
-    license: "CC BY-SA 4.0"
-    alt_text: "Rule set for 4-state busy beaver"
+    generated: busy-beaver-ones-4.svg
+    alt_text: "Rules and space-time diagram of the 4-state busy beaver that writes the most ones"
 
 busy-beaver-ones-5:
   image:
@@ -81,51 +63,37 @@ busy-beaver-ones-5:
 
 kissing-number-1:
   image:
-    source_url: "https://upload.wikimedia.org/wikipedia/commons/5/54/Kissing-1d.svg"
-    credit: "N.Mori, via Wikimedia Commons"
-    license: "Public domain"
-    alt_text: "Kissing number 1"
+    generated: kissing-number-1.svg
+    alt_text: "Two unit circles touching a central one along a line"
 
 kissing-number-2:
   image:
-    source_url: "https://upload.wikimedia.org/wikipedia/commons/d/d2/Kissing-2d.svg"
-    credit: "N.Mori, via Wikimedia Commons"
-    license: "Public domain"
-    alt_text: "Kissing number 2"
+    generated: kissing-number-2.svg
+    alt_text: "Six unit circles touching a central one"
 
 kissing-number-3:
   image:
-    source_url: "https://upload.wikimedia.org/wikipedia/commons/8/8f/Kissing-3d.png"
-    credit: "Robertwb at English Wikipedia, via Wikimedia Commons"
-    license: "CC BY-SA 3.0"
-    alt_text: "Kissing number 3"
+    generated: kissing-number-3.svg
+    alt_text: "Twelve unit spheres touching a central one"
 
 cage-3-5:
   image:
-    source_url: "https://upload.wikimedia.org/wikipedia/commons/9/91/Petersen1_tiny.svg"
-    credit: "Leshabirukov, via Wikimedia Commons"
-    license: "CC BY-SA 3.0"
+    generated: cage-3-5.svg
     alt_text: "Petersen graph"
 
 cage-3-6:
   image:
-    source_url: "https://upload.wikimedia.org/wikipedia/commons/0/06/Heawood_Graph.svg"
-    credit: "Koko90, via Wikimedia Commons"
-    license: "CC BY-SA 4.0"
+    generated: cage-3-6.svg
     alt_text: "Heawood graph"
 
 cage-3-7:
   image:
-    source_url: "https://upload.wikimedia.org/wikipedia/commons/8/8f/McGee_graph_hamiltonian.svg"
-    credit: "Koko90, via Wikimedia Commons"
-    license: "CC BY-SA 3.0"
+    generated: cage-3-7.svg
     alt_text: "McGee graph"
 
 cage-3-8:
   image:
-    source_url: "https://upload.wikimedia.org/wikipedia/commons/4/41/Tutte_eight_cage.svg"
-    credit: "David Benbennick, via Wikimedia Commons"
-    license: "Public domain"
+    generated: cage-3-8.svg
     alt_text: "Tutte-Coxeter graph"
 
 cage-3-10:
@@ -158,10 +126,8 @@ cage-7-5:
 
 stamp-folding-3:
   image:
-    source_url: "https://upload.wikimedia.org/wikipedia/commons/5/5a/Stampfoldings1x3.png"
-    credit: "Robert Dickau, via Wikimedia Commons"
-    license: "CC BY-SA 3.0"
-    alt_text: "Folding three stamps"
+    generated: stamp-folding-3.svg
+    alt_text: "All foldings of a strip of 3 stamps"
 
 map-folding-2-2:
   image:
@@ -172,115 +138,83 @@ map-folding-2-2:
 
 circle-in-equilateral-1:
   image:
-    source_url: "https://upload.wikimedia.org/wikipedia/commons/0/0d/Circle_packing_in_equilateral_triangle_for_1_circle.png"
-    credit: "OwOUwUOwU, via Wikimedia Commons"
-    license: "CC BY-SA 4.0"
+    generated: circle-in-equilateral-1.svg
     alt_text: "Packing one unit circle in an equilateral triangle"
 
 circle-in-equilateral-2:
   image:
-    source_url: "https://upload.wikimedia.org/wikipedia/commons/f/f6/Circle_packing_in_equilateral_triangle_for_2_circles.png"
-    credit: "OwOUwUOwU, via Wikimedia Commons"
-    license: "CC BY-SA 4.0"
+    generated: circle-in-equilateral-2.svg
     alt_text: "Packing two unit circles in an equilateral triangle"
 
 circle-in-equilateral-3:
   image:
-    source_url: "https://upload.wikimedia.org/wikipedia/commons/3/3f/Circle_packing_in_equilateral_triangle_for_3_circles.png"
-    credit: "OwOUwUOwU, via Wikimedia Commons"
-    license: "CC BY-SA 4.0"
+    generated: circle-in-equilateral-3.svg
     alt_text: "Packing three unit circles in an equilateral triangle"
 
 circle-in-equilateral-4:
   image:
-    source_url: "https://upload.wikimedia.org/wikipedia/commons/f/fd/Circle_packing_in_equilateral_triangle_for_4_circles.png"
-    credit: "OwOUwUOwU, via Wikimedia Commons"
-    license: "CC BY-SA 4.0"
+    generated: circle-in-equilateral-4.svg
     alt_text: "Packing four unit circles in an equilateral triangle"
 
 circle-in-equilateral-5:
   image:
-    source_url: "https://upload.wikimedia.org/wikipedia/commons/e/ea/Circle_packing_in_equilateral_triangle_for_5_circles.png"
-    credit: "OwOUwUOwU, via Wikimedia Commons"
-    license: "CC BY-SA 4.0"
+    generated: circle-in-equilateral-5.svg
     alt_text: "Packing five unit circles in an equilateral triangle"
 
 circle-in-equilateral-6:
   image:
-    source_url: "https://upload.wikimedia.org/wikipedia/commons/f/fe/Circle_packing_in_equilateral_triangle_for_6_circles.png"
-    credit: "OwOUwUOwU, via Wikimedia Commons"
-    license: "CC BY-SA 4.0"
+    generated: circle-in-equilateral-6.svg
     alt_text: "Packing six unit circles in an equilateral triangle"
 
 circle-in-equilateral-7:
   image:
-    source_url: "https://upload.wikimedia.org/wikipedia/commons/a/a3/Circle_packing_in_equilateral_triangle_for_7_circles.png"
-    credit: "OwOUwUOwU, via Wikimedia Commons"
-    license: "CC BY-SA 4.0"
+    generated: circle-in-equilateral-7.svg
     alt_text: "Packing seven unit circles in an equilateral triangle"
 
 circle-in-equilateral-8:
   image:
-    source_url: "https://upload.wikimedia.org/wikipedia/commons/4/44/Circle_packing_in_equilateral_triangle_for_8_circles.png"
-    credit: "OwOUwUOwU, via Wikimedia Commons"
-    license: "CC BY-SA 4.0"
+    generated: circle-in-equilateral-8.svg
     alt_text: "Packing eight unit circles in an equilateral triangle"
 
 circle-in-equilateral-9:
   image:
-    source_url: "https://upload.wikimedia.org/wikipedia/commons/a/a4/Circle_packing_in_equilateral_triangle_for_9_circles.png"
-    credit: "OwOUwUOwU, via Wikimedia Commons"
-    license: "CC BY-SA 4.0"
+    generated: circle-in-equilateral-9.svg
     alt_text: "Packing nine unit circles in an equilateral triangle"
 
 circle-in-equilateral-10:
   image:
-    source_url: "https://upload.wikimedia.org/wikipedia/commons/0/0f/Circle_packing_in_equilateral_triangle_for_10_circles.png"
-    credit: "OwOUwUOwU, via Wikimedia Commons"
-    license: "CC BY-SA 4.0"
+    generated: circle-in-equilateral-10.svg
     alt_text: "Packing ten unit circles in an equilateral triangle"
 
 circle-in-equilateral-11:
   image:
-    source_url: "https://upload.wikimedia.org/wikipedia/commons/3/3d/Circle_packing_in_equilateral_triangle_for_11_circles.png"
-    credit: "OwOUwUOwU, via Wikimedia Commons"
-    license: "CC BY-SA 4.0"
+    generated: circle-in-equilateral-11.svg
     alt_text: "Packing 11 unit circles in an equilateral triangle"
 
 circle-in-equilateral-12:
   image:
-    source_url: "https://upload.wikimedia.org/wikipedia/commons/1/1c/Circle_packing_in_equilateral_triangle_for_12_circles.png"
-    credit: "OwOUwUOwU, via Wikimedia Commons"
-    license: "CC BY-SA 4.0"
+    generated: circle-in-equilateral-12.svg
     alt_text: "Packing 12 unit circles in an equilateral triangle"
 
 circle-in-equilateral-13:
   image:
-    source_url: "https://upload.wikimedia.org/wikipedia/commons/a/a4/Circle_packing_in_equilateral_triangle_for_13_circles.png"
-    credit: "OwOUwUOwU, via Wikimedia Commons"
-    license: "CC BY-SA 4.0"
+    generated: circle-in-equilateral-13.svg
     alt_text: "Packing 13 unit circles in an equilateral triangle"
 
 circle-in-equilateral-14:
   image:
-    source_url: "https://upload.wikimedia.org/wikipedia/commons/9/9e/Circle_packing_in_equilateral_triangle_for_14_circles.png"
-    credit: "OwOUwUOwU, via Wikimedia Commons"
-    license: "CC BY-SA 4.0"
+    generated: circle-in-equilateral-14.svg
     alt_text: "Packing 14 unit circles in an equilateral triangle"
 
 circle-in-equilateral-15:
   image:
-    source_url: "https://upload.wikimedia.org/wikipedia/commons/b/ba/Circle_packing_in_equilateral_triangle_for_15_circles.png"
-    credit: "OwOUwUOwU, via Wikimedia Commons"
-    license: "CC BY-SA 4.0"
+    generated: circle-in-equilateral-15.svg
     alt_text: "Packing 15 unit circles in an equilateral triangle"
 
 minimal-superpermutation-3:
   image:
-    source_url: "https://upload.wikimedia.org/wikipedia/commons/1/19/Superpermutation_distribution.png"
-    credit: "IntegralPython, via Wikimedia Commons"
-    license: "CC BY-SA 4.0"
-    alt_text: "The distribution of permutations in a 3 symbol superpermutation"
+    generated: minimal-superpermutation-3.svg
+    alt_text: "Shortest superpermutation on 3 symbols, with each permutation it contains marked below"
 
 affine-line-arrangements-6:
   image:
@@ -295,3 +229,293 @@ affine-line-arrangements-general-position-5:
     credit: "Jon Wild and Laurence Reeves, via OEIS"
     license: "OEIS terms of use"
     alt_text: "All arrangements of five lines in general position"
+
+busy-beaver-shift-3:
+  image:
+    generated: busy-beaver-shift-3.svg
+    alt_text: "Rules and space-time diagram of the 3-state busy beaver that runs longest"
+
+cage-3-3:
+  image:
+    generated: cage-3-3.svg
+    alt_text: "Complete graph on 4 vertices"
+
+cage-3-4:
+  image:
+    generated: cage-3-4.svg
+    alt_text: "Complete bipartite graph with 3 vertices on each side"
+
+cage-4-3:
+  image:
+    generated: cage-4-3.svg
+    alt_text: "Complete graph on 5 vertices"
+
+cage-4-4:
+  image:
+    generated: cage-4-4.svg
+    alt_text: "Complete bipartite graph with 4 vertices on each side"
+
+cage-5-3:
+  image:
+    generated: cage-5-3.svg
+    alt_text: "Complete graph on 6 vertices"
+
+cage-5-4:
+  image:
+    generated: cage-5-4.svg
+    alt_text: "Complete bipartite graph with 5 vertices on each side"
+
+cage-6-3:
+  image:
+    generated: cage-6-3.svg
+    alt_text: "Complete graph on 7 vertices"
+
+cage-6-4:
+  image:
+    generated: cage-6-4.svg
+    alt_text: "Complete bipartite graph with 6 vertices on each side"
+
+cage-7-3:
+  image:
+    generated: cage-7-3.svg
+    alt_text: "Complete graph on 8 vertices"
+
+cage-7-4:
+  image:
+    generated: cage-7-4.svg
+    alt_text: "Complete bipartite graph with 7 vertices on each side"
+
+degree-diameter-3-2:
+  image:
+    generated: degree-diameter-3-2.svg
+    alt_text: "Petersen graph"
+
+minimal-superpermutation-2:
+  image:
+    generated: minimal-superpermutation-2.svg
+    alt_text: "Shortest superpermutation on 2 symbols, with each permutation it contains marked below"
+
+minimal-superpermutation-4:
+  image:
+    generated: minimal-superpermutation-4.svg
+    alt_text: "Shortest superpermutation on 4 symbols, with each permutation it contains marked below"
+
+ramsey-3-4:
+  image:
+    generated: ramsey-3-4.svg
+    alt_text: "Coloring of the edges of the complete graph on 8 vertices with no blue complete subgraph on 3 vertices and no orange one on 4"
+
+ramsey-3-5:
+  image:
+    generated: ramsey-3-5.svg
+    alt_text: "Coloring of the edges of the complete graph on 13 vertices with no blue complete subgraph on 3 vertices and no orange one on 5"
+
+ramsey-4-4:
+  image:
+    generated: ramsey-4-4.svg
+    alt_text: "Coloring of the edges of the complete graph on 17 vertices with no blue complete subgraph on 4 vertices and no orange one on 4"
+
+square-packing-in-square-1:
+  image:
+    generated: square-packing-in-square-1.svg
+    alt_text: "Optimal packing of 1 unit square in a square"
+
+square-packing-in-square-2:
+  image:
+    generated: square-packing-in-square-2.svg
+    alt_text: "Optimal packing of 2 unit squares in a square"
+
+square-packing-in-square-3:
+  image:
+    generated: square-packing-in-square-3.svg
+    alt_text: "Optimal packing of 3 unit squares in a square"
+
+square-packing-in-square-4:
+  image:
+    generated: square-packing-in-square-4.svg
+    alt_text: "Optimal packing of 4 unit squares in a square"
+
+square-packing-in-square-6:
+  image:
+    generated: square-packing-in-square-6.svg
+    alt_text: "Optimal packing of 6 unit squares in a square"
+
+square-packing-in-square-7:
+  image:
+    generated: square-packing-in-square-7.svg
+    alt_text: "Optimal packing of 7 unit squares in a square"
+
+square-packing-in-square-8:
+  image:
+    generated: square-packing-in-square-8.svg
+    alt_text: "Optimal packing of 8 unit squares in a square"
+
+square-packing-in-square-9:
+  image:
+    generated: square-packing-in-square-9.svg
+    alt_text: "Optimal packing of 9 unit squares in a square"
+
+square-packing-in-square-14:
+  image:
+    generated: square-packing-in-square-14.svg
+    alt_text: "Optimal packing of 14 unit squares in a square"
+
+square-packing-in-square-15:
+  image:
+    generated: square-packing-in-square-15.svg
+    alt_text: "Optimal packing of 15 unit squares in a square"
+
+square-packing-in-square-16:
+  image:
+    generated: square-packing-in-square-16.svg
+    alt_text: "Optimal packing of 16 unit squares in a square"
+
+square-packing-in-square-23:
+  image:
+    generated: square-packing-in-square-23.svg
+    alt_text: "Optimal packing of 23 unit squares in a square"
+
+square-packing-in-square-24:
+  image:
+    generated: square-packing-in-square-24.svg
+    alt_text: "Optimal packing of 24 unit squares in a square"
+
+square-packing-in-square-25:
+  image:
+    generated: square-packing-in-square-25.svg
+    alt_text: "Optimal packing of 25 unit squares in a square"
+
+square-packing-in-square-34:
+  image:
+    generated: square-packing-in-square-34.svg
+    alt_text: "Optimal packing of 34 unit squares in a square"
+
+square-packing-in-square-35:
+  image:
+    generated: square-packing-in-square-35.svg
+    alt_text: "Optimal packing of 35 unit squares in a square"
+
+square-packing-in-square-36:
+  image:
+    generated: square-packing-in-square-36.svg
+    alt_text: "Optimal packing of 36 unit squares in a square"
+
+square-packing-in-square-47:
+  image:
+    generated: square-packing-in-square-47.svg
+    alt_text: "Optimal packing of 47 unit squares in a square"
+
+square-packing-in-square-48:
+  image:
+    generated: square-packing-in-square-48.svg
+    alt_text: "Optimal packing of 48 unit squares in a square"
+
+square-packing-in-square-49:
+  image:
+    generated: square-packing-in-square-49.svg
+    alt_text: "Optimal packing of 49 unit squares in a square"
+
+square-packing-in-square-62:
+  image:
+    generated: square-packing-in-square-62.svg
+    alt_text: "Optimal packing of 62 unit squares in a square"
+
+square-packing-in-square-63:
+  image:
+    generated: square-packing-in-square-63.svg
+    alt_text: "Optimal packing of 63 unit squares in a square"
+
+square-packing-in-square-64:
+  image:
+    generated: square-packing-in-square-64.svg
+    alt_text: "Optimal packing of 64 unit squares in a square"
+
+square-packing-in-square-79:
+  image:
+    generated: square-packing-in-square-79.svg
+    alt_text: "Optimal packing of 79 unit squares in a square"
+
+square-packing-in-square-80:
+  image:
+    generated: square-packing-in-square-80.svg
+    alt_text: "Optimal packing of 80 unit squares in a square"
+
+square-packing-in-square-81:
+  image:
+    generated: square-packing-in-square-81.svg
+    alt_text: "Optimal packing of 81 unit squares in a square"
+
+square-packing-in-square-98:
+  image:
+    generated: square-packing-in-square-98.svg
+    alt_text: "Optimal packing of 98 unit squares in a square"
+
+square-packing-in-square-99:
+  image:
+    generated: square-packing-in-square-99.svg
+    alt_text: "Optimal packing of 99 unit squares in a square"
+
+square-packing-in-square-100:
+  image:
+    generated: square-packing-in-square-100.svg
+    alt_text: "Optimal packing of 100 unit squares in a square"
+
+stamp-folding-1:
+  image:
+    generated: stamp-folding-1.svg
+    alt_text: "All foldings of a strip of 1 stamp"
+
+stamp-folding-2:
+  image:
+    generated: stamp-folding-2.svg
+    alt_text: "All foldings of a strip of 2 stamps"
+
+stamp-folding-4:
+  image:
+    generated: stamp-folding-4.svg
+    alt_text: "All foldings of a strip of 4 stamps"
+
+stamp-folding-5:
+  image:
+    generated: stamp-folding-5.svg
+    alt_text: "One way to fold a strip of 5 stamps"
+
+stamp-folding-6:
+  image:
+    generated: stamp-folding-6.svg
+    alt_text: "One way to fold a strip of 6 stamps"
+
+stamp-folding-7:
+  image:
+    generated: stamp-folding-7.svg
+    alt_text: "One way to fold a strip of 7 stamps"
+
+stamp-folding-8:
+  image:
+    generated: stamp-folding-8.svg
+    alt_text: "One way to fold a strip of 8 stamps"
+
+van-der-waerden-2-3:
+  image:
+    generated: van-der-waerden-2-3.svg
+    alt_text: "Coloring of 1 to 8 with 2 colors and no monochromatic arithmetic progression of length 3"
+
+van-der-waerden-2-4:
+  image:
+    generated: van-der-waerden-2-4.svg
+    alt_text: "Coloring of 1 to 34 with 2 colors and no monochromatic arithmetic progression of length 4"
+
+van-der-waerden-3-3:
+  image:
+    generated: van-der-waerden-3-3.svg
+    alt_text: "Coloring of 1 to 26 with 3 colors and no monochromatic arithmetic progression of length 3"
+
+van-der-waerden-3-4:
+  image:
+    generated: van-der-waerden-3-4.svg
+    alt_text: "Coloring of 1 to 292 with 3 colors and no monochromatic arithmetic progression of length 4"
+
+van-der-waerden-4-3:
+  image:
+    generated: van-der-waerden-4-3.svg
+    alt_text: "Coloring of 1 to 75 with 4 colors and no monochromatic arithmetic progression of length 3"

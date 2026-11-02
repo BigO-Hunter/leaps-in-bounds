@@ -28,6 +28,14 @@ Alongside bounds from the literature, constants can have verified bounds backed 
 
 So far, certificates are accepted for Ramsey numbers, van der Waerden numbers, cages, the degree-diameter problem, minimal superpermutations, kissing numbers, packing unit squares in a square, and packing unit circles in an equilateral triangle.
 
+## Images
+
+A constant's image, set in `source_data/constants.yml`, is either downloaded from a `source_url` (and cached in `assets/images/constants/`) or `generated` by `scripts/generate_images.py`, which draws constructions in a consistent style as SVG in `assets/images/generated/`. The generator checks each construction (against a certificate's witness, or the constant's value) before drawing it. It isn't part of the build, so new images can be reviewed first:
+
+```bash
+python scripts/generate_images.py --sheet /tmp/image-review.html  # all families, plus a page comparing them to the current images
+```
+
 ## Development Setup
 
 Some data is preprocessed using Python scripts. If you don't need to modify the data, you can skip the Python setup (steps 1 and 2).

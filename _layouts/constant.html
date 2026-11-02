@@ -9,9 +9,11 @@ layout: default
 {% if constant.image %}
 <div class="constant-image">
   <img src="{{ constant.image.path }}" alt="{{ constant.image.alt_text }}" data-bs-toggle="tooltip" data-bs-placement="top" title="{{ constant.image.alt_text }}" />
+  {% if constant.image.credit %}
   <div class="image-credit">
     <span id="image-credit-{{ page.id }}">{{ constant.image.credit }}. {{ constant.image.license }}.</span>
   </div>
+  {% endif %}
 </div>
 {% endif %}
 
