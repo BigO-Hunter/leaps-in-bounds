@@ -1,6 +1,6 @@
 ramsey:
   name: "Ramsey numbers"
-  description: "Ramsey number $R(r,s)$ is the smallest number $n$ such that any two-coloring of the edges of the complete graph $K_n$ must contain either a monochromatic $K_r$ in the first color or a monochromatic $K_s$ in the second color."
+  description: "The Ramsey number $R(r,s)$ is the smallest number $n$ such that any two-coloring of the edges of the complete graph $K_n$ must contain either a monochromatic $K_r$ in the first color or a monochromatic $K_s$ in the second color."
   external_ids:
     mathworld: RamseyNumber
     metamath: df-ram
@@ -32,6 +32,7 @@ square-packing:
   description: "$s(n)$ is the side of the smallest square into which $n$ unit squares can be packed."
   external_ids:
     mathworld: SquarePacking
+    msc: 52C15
     wikidata: Q7582076
     wikipedia_en: Square_packing
   display_type: sequence
@@ -44,35 +45,37 @@ square-packing:
   research_status: initial
 
 busy-beaver-shift:
-  name: "Busy Beaver shift function"
-  description: "The Busy Beaver shift function $BB(n)$ ($S(n)$) is the maximal number of steps that an n-state Turing machine can make on an initially blank tape before eventually halting."
+  name: "Busy beaver shift function"
+  description: "The busy beaver shift function $BB(n)$, also written $S(n)$, is the maximum number of steps made by an $n$-state, 2-symbol Turing machine that halts when started on a blank tape."
   external_ids:
     mathworld: BusyBeaver
+    msc: 03D10
     wikidata: Q1427965
     wikipedia_en: Busy_beaver
     oeis: A060843
   display_type: sequence
   representative_image: busy-beaver-shift-5
   id_template: "busy-beaver-shift-{n}"
-  name_template: "Busy Beaver number $BB({n})$"
-  description_template: "The maximal number of steps that a ${n}$-state Turing machine can make on an initially blank tape before eventually halting."
+  name_template: "Busy beaver shift function $BB({n})$"
+  description_template: "The maximum number of steps made by a ${n}$-state, 2-symbol Turing machine that halts when started on a blank tape."
   parameters: [n]
   parameter_values: [[[1, 7]]]
   research_status: initial
 
 busy-beaver-ones:
-  name: "Busy Beaver ones function"
-  description: "The Busy Beaver ones function $\\Sigma(n)$ (Rado's sigma function) is the maximal number of 1s that an n-state Turing machine can print on an initially blank tape before eventually halting."
+  name: "Busy beaver ones function"
+  description: "The busy beaver ones function $\\Sigma(n)$ (Radó's sigma function) is the maximum number of 1s left on the tape by an $n$-state, 2-symbol Turing machine that halts when started on a blank tape."
   external_ids:
     mathworld: BusyBeaver
+    msc: 03D10
     wikidata: Q1427965
     wikipedia_en: Busy_beaver
     oeis: A028444
   display_type: sequence
   representative_image: busy-beaver-ones-4
   id_template: "busy-beaver-ones-{n}"
-  name_template: "Busy Beaver ones function value $\\Sigma({n})$"
-  description_template: "The maximal number of 1s that a ${n}$-state Turing machine can print on an initially blank tape before eventually halting."
+  name_template: "Busy beaver ones function $\\Sigma({n})$"
+  description_template: "The maximum number of 1s left on the tape by a ${n}$-state, 2-symbol Turing machine that halts when started on a blank tape."
   parameters: [n]
   parameter_values: [[[1, 7]]]
   research_status: initial
@@ -82,6 +85,7 @@ kissing-number:
   description: "The kissing number of $\\mathbb{R}^n$ is the maximum number of non-overlapping unit spheres that can touch a central unit sphere in $\\mathbb{R}^n$."
   external_ids:
     mathworld: KissingNumber
+    msc: 52C17
     wikidata: Q1371530
     wikipedia_en: Kissing_number
   display_type: sequence
@@ -95,9 +99,10 @@ kissing-number:
 
 degree-diameter:
   name: "Degree-diameter problem"
-  description: "$N(d,k)$ is the largest possible number of vertices in a graph of maximum degree $d$ and diameter $k$."
+  description: "$N(d,k)$ is the largest possible number of vertices in a graph of maximum degree $d$ and diameter at most $k$."
   external_ids:
     mathworld: Degree-DiameterProblem
+    msc: 05C35
     wikidata: Q5251835
     wikipedia_en: Degree_diameter_problem
   display_type: grid
@@ -106,16 +111,17 @@ degree-diameter:
   representative_image: degree-diameter-3-2
   id_template: "degree-diameter-{d}-{k}"
   name_template: "Degree-diameter problem $N({d},{k})$"
-  description_template: "The largest possible number of vertices in a graph of maximum degree ${d}$ and diameter ${k}$."
+  description_template: "The largest possible number of vertices in a graph of maximum degree ${d}$ and diameter at most ${k}$."
   parameters: [d, k]
   parameter_values: [[[3, 20], [2, 10]]]
   research_status: initial
 
 cage:
   name: "Cages"
-  description: "$n(k,g)$ is the order of a $(k,g)$-cage, a $k$-regular graph of girth $g$ of minimum order."
+  description: "$n(k,g)$ is the order of a $(k,g)$-cage, a $k$-regular graph of girth $g$ with the fewest possible vertices."
   external_ids:
     mathworld: CageGraph
+    msc: 05C35
     wikipedia_en: Cage_(graph_theory)
   display_type: grid
   display_rows: [3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]
@@ -123,16 +129,17 @@ cage:
   representative_image: cage-3-8
   id_template: "cage-{k}-{g}"
   name_template: "Cage order $n({k},{g})$"
-  description_template: "The order of a $({k},{g})$-cage, a ${k}$-regular graph of girth ${g}$ of minimum order."
+  description_template: "The order of a $({k},{g})$-cage, a ${k}$-regular graph of girth ${g}$ with the fewest possible vertices."
   parameters: [k, g]
   parameter_values: [[[3, 20], [3, 16]]]
   research_status: initial
 
 debruijn-newman:
-  name: "de Bruijn-Newman constant"
-  description: "The de Bruijn-Newman constant $\\Lambda$ is defined via the zeros of a certain function $H(\\lambda,z)$, where $\\lambda$ is a real parameter and $z$ is a complex variable.  More precisely, $H(\\lambda, z):=\\int_{0}^{\\infty} e^{\\lambda u^{2}} \\Phi(u) \\cos (z u) \\, du$, where $\\Phi$ is the super-exponentially decaying function $\\Phi(u) = \\sum_{n=1}^{\\infty} (2\\pi^2n^4e^{9u}-3\\pi n^2 e^{5u} ) e^{-\\pi n^2 e^{4u}}$ and $\\Lambda$ is the unique real number with the property that $H$ has only real zeros if and only if $\\lambda\\geq \\Lambda$."
+  name: "de Bruijn–Newman constant"
+  description: "The de Bruijn–Newman constant $\\Lambda$ is defined via the zeros of a certain function $H(\\lambda,z)$, where $\\lambda$ is a real parameter and $z$ is a complex variable. More precisely, $H(\\lambda, z):=\\int_{0}^{\\infty} e^{\\lambda u^{2}} \\Phi(u) \\cos (z u) \\, du$, where $\\Phi$ is the super-exponentially decaying function $\\Phi(u) = \\sum_{n=1}^{\\infty} (2\\pi^2n^4e^{9u}-3\\pi n^2 e^{5u} ) e^{-\\pi n^2 e^{4u}}$ and $\\Lambda$ is the unique real number with the property that $H(\\lambda, \\cdot)$ has only real zeros if and only if $\\lambda\\geq \\Lambda$. The Riemann hypothesis is equivalent to $\\Lambda \\le 0$."
   external_ids:
     mathworld: deBruijn-NewmanConstant
+    msc: 11M26
     wikidata: Q2248459
     wikipedia_en: De_Bruijn–Newman_constant
   display_type: single
@@ -144,6 +151,7 @@ van-der-waerden:
   description: "$W(r,k)$ is the smallest number $n$ such that if the integers $1$ to $n$ are colored with $r$ colors, there must be a monochromatic arithmetic progression of length $k$."
   external_ids:
     mathworld: vanderWaerdenNumber
+    msc: 05D10
     wikidata: Q7913892
     wikipedia_en: Van_der_Waerden_number
   display_type: grid
@@ -204,6 +212,7 @@ disk-covering:
   description: "The smallest value $r(n)$ such that $n$ disks of radius $r(n)$ can be arranged to cover the unit disk."
   external_ids:
     mathworld: DiskCoveringProblem
+    msc: 52C15
     wikipedia_en: Disk_covering_problem
   display_type: sequence
   id_template: "disk-covering-{n}"
@@ -215,29 +224,32 @@ disk-covering:
 
 circle-in-equilateral:
   name: "Circle packing in an equilateral triangle"
-  description: "The side length of the smallest equilateral triangle into which $n$ unit circles can be packed."
+  description: "The side length of the smallest equilateral triangle into which $n$ unit circles (of radius 1) can be packed."
   external_ids:
+    msc: 52C15
     wikipedia_en: Circle_packing_in_an_equilateral_triangle
   display_type: sequence
   representative_image: circle-in-equilateral-11
   id_template: "circle-in-equilateral-{n}"
   name_template: "Packing ${n}$ unit circles in an equilateral triangle"
-  description_template: "The side length of the smallest equilateral triangle into which ${n}$ unit circles can be packed."
+  description_template: "The side length of the smallest equilateral triangle into which ${n}$ unit circles (of radius 1) can be packed."
   parameters: [n]
   parameter_values: [[[1, 15]]]
   research_status: initial
 
 minimal-superpermutation:
   name: "Minimal superpermutation problem"
-  description: "$L(n)$ is the shortest length of a string that contains each permutation of $n$ symbols as a substring."
+  description: "$L(n)$ is the length of the shortest string that contains each permutation of $n$ symbols as a contiguous substring."
   external_ids:
+    msc: 05A05
+    oeis: A180632
     wikidata: Q17048413
     wikipedia_en: Superpermutation
   display_type: sequence
   representative_image: minimal-superpermutation-3
   id_template: "minimal-superpermutation-{n}"
   name_template: "Minimal superpermutation length $L({n})$"
-  description_template: "The shortest length of a string that contains each permutation of ${n}$ symbols as a substring."
+  description_template: "The length of the shortest string that contains each permutation of ${n}$ symbols as a contiguous substring."
   parameters: [n]
   parameter_values: [[[1, 9]]]
   research_status: initial
