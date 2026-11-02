@@ -39,9 +39,11 @@ permalink: /constants/
 {% assign image = site.data.constants[image_id].image %}
 <div class="constant-group-image">
   <img src="{{ image.path }}" alt="{{ image.alt_text }}" data-bs-toggle="tooltip" data-bs-placement="top" title="{{ image.alt_text }}">
+  {% if image.credit %}
   <div class="image-credit">
     <span>{{ image.credit }}. {{ image.license }}.</span>
   </div>
+  {% endif %}
 </div>
 {% endif %}
 

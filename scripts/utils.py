@@ -122,11 +122,16 @@ def download_image(url: str, file_extension: str, output_path: str, retries: int
     img.save(output_path, optimize=True, quality=85)
 
 
+GENERATED_IMAGES_DIR = 'assets/images/generated'
+
+
 def process_constant_images(constants: MutableMapping[str, Any]) -> None:
     """Process images for constants.
     
     Downloads images not already cached, optimizes them, and updates constants
-    with image paths. Cached images no longer referenced are removed.
+    with image paths. Cached images no longer referenced are removed. Images
+    with `generated` instead of `source_url` were made by
+    scripts/generate_images.py and are used as they are.
     
     Args:
         constants: Dictionary of constants.
@@ -142,6 +147,12 @@ def process_constant_images(constants: MutableMapping[str, Any]) -> None:
             continue
             
         image_data = data['image']
+        if 'generated' in image_data:
+            generated_path = os.path.join(GENERATED_IMAGES_DIR, image_data.pop('generated'))
+            if not os.path.exists(generated_path):
+                raise FileNotFoundError(f"Generated image for {constant_id} not found: {generated_path}")
+            image_data['path'] = f"/{generated_path}"
+            continue
         source_url = image_data['source_url']
         
         # Determine file extension from URL or default to jpg
