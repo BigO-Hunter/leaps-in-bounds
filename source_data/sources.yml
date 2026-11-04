@@ -1296,3 +1296,27 @@ rodrigo-2026:
   date: "2026-06-10"
   doi: "https://doi.org/10.5281/zenodo.20633634"
   notes: "Not peer reviewed."
+
+ringel-1956:
+  string: "G. Ringel, Teilungen der Ebene durch Geraden oder topologische Geraden, Mathematische Zeitschrift 64 (1956) 79-102."
+  date: "1956"
+  doi: "https://doi.org/10.1007/BF01166556"
+  notes: "Counts the simple arrangements of up to 7 lines in the affine plane (p. 80)."
+
+finschi-2001:
+  string: "L. Finschi, A Graph Theoretical Approach for Reconstruction and Generation of Oriented Matroids, Dissertation, ETH Zürich, 2001."
+  date: "2001"
+  doi: "https://doi.org/10.3929/ethz-a-004255224"
+  notes: "Table 8.1 (p. 165) counts abstract dissection types of n lines in the plane, not all parallel: 46, 790, 37829 and 4134939 for 5 to 8 lines. Adding 1 for all lines parallel gives A241600. Every arrangement of at most 8 pseudolines is stretchable (Goodman and Pollack), so these are all realizable for up to 7 affine lines (8 projective lines with the line at infinity). For 8 affine lines some abstract types aren't realizable, so 4134940 is only an upper bound on the number of combinatorial types."
+
+forcey-2025:
+  string: "S. Forcey, Counting plane arrangements via oriented matroids, arXiv:2504.11461, 2025."
+  date: "2025-03-31"
+  url: "https://arxiv.org/abs/2504.11461"
+  notes: "Open Problem 14 (p. 18) gives 4134940 for 8 lines, from Finschi's table, which counts abstract types including non-stretchable ones."
+
+christ-2011:
+  string: "T. Christ, Discrete Descriptions of Geometric Objects, Dissertation, ETH Zürich, 2011, with the Database of Combinatorially Different Simple Line Arrangements."
+  date: "2011"
+  doi: "https://doi.org/10.3929/ethz-a-007018092"
+  notes: "The database (https://geometry.inf.ethz.ch/christt/linearr/) lists all simple arrangements of up to 9 lines; OEIS A090338 takes a(9) from it."

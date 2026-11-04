@@ -1,0 +1,16 @@
+constant: affine-line-arrangements-general-position-5
+bound: lower
+value: 6
+kind: witness
+witness:
+  format: lines
+  data: |
+    6 0 1 6 6 -1 3 -2 1 1 -6 -1 2 6 1
+    3 0 1 3 1 1 9 -2 4 7 -9 -1 2 9 -4
+    13 0 -6 13 13 -1 13 -9 -9 13 -12 -11 13 12 0
+    13 0 6 1 1 0 13 -9 10 3 -13 7 12 13 0
+    19 0 -4 18 19 -12 19 -13 3 4 -19 7 1 -1 0
+    19 0 -1 4 19 -6 6 -19 6 1 -19 4 19 -9 -5
+submitted_by: Claude
+date: 2026-11-04
+notes: 'One arrangement per row: a b c for each line a x + b y = c. Found by adding lines near pairs of vertices to arrangements of one fewer line, then rounding to small integers.'

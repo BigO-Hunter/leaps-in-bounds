@@ -179,6 +179,26 @@ Formal statements are in [`formal/LeapsInBounds/Statements/Golomb.lean`](../form
 
 Witnesses can certify upper bounds only. A witness for `G(n) <= L` uses `format: marks`: `n` distinct integers from `0` to `L`, separated by whitespace or commas, whose pairwise differences are all distinct. For example, `'0 1 4 9 11'` for `G(5) <= 11`.
 
+### Arrangements of lines: `affine-line-arrangements-{n}` and `affine-line-arrangements-general-position-{n}`
+
+Formal statements are in [`formal/LeapsInBounds/Statements/LineArrangement.lean`](../formal/LeapsInBounds/Statements/LineArrangement.lean). The combinatorial type of an arrangement of distinct lines in the plane is given by its covectors, the vectors of signs saying which side of each line a point is on, up to renumbering the lines and swapping their sides. This identifies mirror images.
+
+- `LowerBound n N` means there are at least `N` types of arrangements of `n` lines: some `N` arrangements are pairwise of different types.
+- `UpperBound n N` means there are at most `N`: among any `N + 1` arrangements, two have the same type.
+- `GeneralLowerBound n N` and `GeneralUpperBound n N` are the same for arrangements in general position, with no two lines parallel and no three through a point.
+
+OEIS A241600 counts arrangements up to rigid isotopy rather than combinatorial type. Isotopic arrangements have the same type, so a lower bound on the number of types is also a lower bound for A241600.
+
+Witnesses can certify lower bounds only. A witness for `LowerBound n N` or `GeneralLowerBound n N` uses `format: lines`: `N` arrangements, one per row, each as `3n` integers `a b c`, one triple for each line `a x + b y = c`. The checker computes each arrangement's covectors exactly (at the vertices, on each edge, and on either side of each edge) and a canonical form of its type, and checks that no two are the same. For example, the two arrangements of 2 lines, parallel and crossing:
+
+```yaml
+witness:
+  format: lines
+  data: |
+    1 0 0 1 0 1
+    1 0 0 0 1 0
+```
+
 ## Checking locally
 
 ```bash
