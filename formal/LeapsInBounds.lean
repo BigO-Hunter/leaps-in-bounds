@@ -5,6 +5,7 @@ public import LeapsInBounds.Statements.CircleInTriangle
 public import LeapsInBounds.Statements.DegreeDiameter
 public import LeapsInBounds.Statements.Golomb
 public import LeapsInBounds.Statements.KissingNumber
+public import LeapsInBounds.Statements.LineArrangement
 public import LeapsInBounds.Statements.Radical
 public import LeapsInBounds.Statements.Ramsey
 public import LeapsInBounds.Statements.Schur
