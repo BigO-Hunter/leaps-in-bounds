@@ -1,4 +1,4 @@
-> **BigO-Hunter fork notice.** The org's mirror of [daniel-munro/leaps-in-bounds](https://github.com/daniel-munro/leaps-in-bounds) — the bounds-progress project this org mirrors and cross-files against (the schur-number-8 and ramsey-5-5 certificates cite its trusted statements). Upstream's README below is unchanged; upstream's MIT license applies.
+> **BigO-Hunter fork notice.** The org's mirror of [daniel-munro/leaps-in-bounds](https://github.com/daniel-munro/leaps-in-bounds) — the bounds-progress project this org mirrors and cross-files against (the schur-number-8 and ramsey-5-5 certificates cite its trusted statements). Upstream's README below is unchanged; the org stamps this copy's LICENSE with the Copy-Free/Stays-Free (CFSF) License — see [LICENSE](LICENSE) ([github.com/darkhipo/cfsf](https://github.com/darkhipo/cfsf)) (upstream's own MIT remains as published — see [NOTICE](NOTICE.md)).
 
 # Leaps in Bounds
 
