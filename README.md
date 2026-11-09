@@ -1,3 +1,5 @@
+> **BigO-Hunter fork notice.** The org's mirror of [daniel-munro/leaps-in-bounds](https://github.com/daniel-munro/leaps-in-bounds) — the bounds-progress project this org mirrors and cross-files against (the schur-number-8 and ramsey-5-5 certificates cite its trusted statements). Upstream's README below is unchanged; upstream's MIT license applies.
+
 # Leaps in Bounds
 
 ### Repository of progress on mathematical unknowns
